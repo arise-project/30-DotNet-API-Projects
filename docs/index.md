@@ -3,7 +3,31 @@
 
 Documentation of [AbdlrhmnAtallh/30-DotNet-API-Projects](https://github.com/AbdlrhmnAtallh/30-DotNet-API-Projects) at commit [`a748b7c4dd09`](https://github.com/AbdlrhmnAtallh/30-DotNet-API-Projects/tree/a748b7c4dd099197850609957f85e9c1fcb19079) (branch `master`).
 
-> **Coverage:** generated from the code itself (types, members, XML docs, project and inheritance graphs). AI-written explanations are not included in this run.
+> **Coverage:** generated from the code itself (types, members, XML docs, project and inheritance graphs). AI explanations: all 3 written.
+
+## Overview
+
+*Written by AI from the code at this commit. Check important details against the source.*
+
+The repository contains 30 independent .NET backend projects that demonstrate common API scenarios and technologies. Each project is a self‑contained example, ranging from CRUD services to machine‑learning integrations, intended for learning and reference.
+
+### Key concepts
+
+- **Project01_TaskManagerAPI**: A sample RESTful API that implements CRUD operations for tasks and categories.
+- **WeatherForecast**: A simple model used in the default template to illustrate returning data from an endpoint.
+- **CategoriesController**: Exposes HTTP actions for creating, reading, updating, and deleting [`Category`](api/Project01_TaskManagerAPI.Models/Category.md) entities.
+- **TasksController**: Handles HTTP requests for managing [`Task`](api/Project01_TaskManagerAPI.Models/Task.md) entities, including list, add, edit, and delete.
+- **Category**: Domain model representing a task grouping, typically containing an Id and a Name.
+- **Task**: Domain model representing a to‑do item, with properties such as Id, Title, Description, and CategoryId.
+- **Program**: Entry point that builds the web host, registers services, and maps controller routes.
+
+### How it fits together
+
+Each project lives in its own folder and compiles as a separate .NET application. Projects do not depend on one another; they showcase isolated patterns (controllers, services, data models) that can be copied into other solutions. The common structure includes a [`Program`](api/Project01_TaskManagerAPI/Program.md) class, controller classes, and simple POCO models, making it easy to compare approaches across the 30 examples.
+
+### Where to start
+
+Open the `Project01_TaskManagerAPI` folder, examine [`Program`](api/Project01_TaskManagerAPI/Program.md) to see the host setup, then explore [`CategoriesController`](api/Project01_TaskManagerAPI.Controllers/CategoriesController.md) and [`TasksController`](api/Project01_TaskManagerAPI.Controllers/TasksController.md) to understand the CRUD endpoints and the [`Category`](api/Project01_TaskManagerAPI.Models/Category.md) and [`Task`](api/Project01_TaskManagerAPI.Models/Task.md) models they manipulate.
 
 ## About
 
@@ -87,7 +111,3 @@ Each project focuses on a specific problem or feature and serves as a hands-on g
 - [Features](features.md): what the code lets you do, and where
 - [API reference](api/index.md): namespaces, types and members
 - [Quality report](quality.md): coverage, grounding and the checks this run passed
-
-## Not written yet
-
-These requested sections are written by AI and did not fit in this run: features. Run the documentation again to continue.

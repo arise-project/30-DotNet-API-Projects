@@ -7,6 +7,27 @@ Namespace: [`Project01_TaskManagerAPI`](index.md) · Project: [Project01_TaskMan
 public class Program
 ```
 
+## Overview
+
+*Written by AI from the code at this commit. Check important details against the source.*
+
+Provides the entry point for the ASP.NET Core minimal API, configuring services, middleware, and endpoints before the application runs.
+
+**Responsibilities**
+
+- Create the application builder using command‑line arguments
+- Register authorization, Swagger, and endpoint explorer services
+- Build the `WebApplication` and configure the request pipeline
+- Enable HTTPS redirection and authorization middleware
+- Map the `/weatherforecast` endpoint
+
+**Key members**
+
+- `Main`: Static entry method that sets up services, builds the app, configures middleware, and defines endpoints
+- `Program`: Parameter‑less constructor required for framework activation (currently empty)
+
+**Works with:** `WebApplication`, `HttpContext`, [`WeatherForecast`](WeatherForecast.md)
+
 ## Constructors
 
 ### Program constructor

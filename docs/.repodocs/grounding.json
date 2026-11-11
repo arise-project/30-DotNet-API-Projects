@@ -1,0 +1,31 @@
+[
+  {
+    "Job": "project:Projects/Project01_TaskManagerAPI/Project01_TaskManagerAPI/Project01_TaskManagerAPI.csproj",
+    "Kind": "project",
+    "NamesChecked": 7,
+    "UnknownBeforeRepair": [],
+    "UnknownAfterRepair": [],
+    "SentencesRemoved": 0,
+    "ItemsRemoved": 0
+  },
+  {
+    "Job": "type:T:Project01_TaskManagerAPI.Program",
+    "Kind": "type",
+    "NamesChecked": 6,
+    "UnknownBeforeRepair": [
+      "WebApplicationBuilder"
+    ],
+    "UnknownAfterRepair": [],
+    "SentencesRemoved": 0,
+    "ItemsRemoved": 0
+  },
+  {
+    "Job": "overview",
+    "Kind": "overview",
+    "NamesChecked": 5,
+    "UnknownBeforeRepair": [],
+    "UnknownAfterRepair": [],
+    "SentencesRemoved": 0,
+    "ItemsRemoved": 0
+  }
+]

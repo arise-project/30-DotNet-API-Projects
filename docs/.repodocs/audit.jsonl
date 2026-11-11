@@ -1,0 +1,3 @@
+{"t":20.8,"job":"project:Projects/Project01_TaskManagerAPI/Project01_TaskManagerAPI/Project01_TaskManagerAPI.csproj","kind":"project","outcome":"ok","prompt":366,"completion":494,"seconds":9.03,"tools":0}
+{"t":21.8,"job":"type:T:Project01_TaskManagerAPI.Program","kind":"type","outcome":"repaired","prompt":1227,"completion":538,"seconds":10.07,"tools":0}
+{"t":22.4,"job":"overview","kind":"overview","outcome":"ok","prompt":769,"completion":597,"seconds":10.66,"tools":0}

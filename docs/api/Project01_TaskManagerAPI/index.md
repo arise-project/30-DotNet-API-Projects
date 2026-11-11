@@ -7,5 +7,5 @@
 
 | Type | |
 |---|---|
-| [`Program`](Program.md) |  |
+| [`Program`](Program.md) | *AI:* Provides the entry point for the ASP.NET Core minimal API, configuring services, middleware, and endpoints before the application runs. |
 | [`WeatherForecast`](WeatherForecast.md) |  |

@@ -8,17 +8,27 @@ How far this documentation of `AbdlrhmnAtallh/30-DotNet-API-Projects` at `a748b7
 | | |
 |---|---:|
 | Pages | 17 |
-| … from the code only | 17 |
-| … with AI drafts | 0 |
+| … from the code only | 14 |
+| … with AI drafts | 3 |
 | … refined by AI | 0 |
-
-Not written yet: features.
+| AI explanations written | 3 of 3 (100 %) |
+| … reused from earlier runs | 0 |
 
 ## Grounding
 
-No AI text in this run: every page is generated from the code itself.
+Every name the AI wrote as code (in backticks, or as a key type or member) was checked against the index of this commit. An unknown name got one repair turn that offered the closest real symbols; what was still unknown after it was cut out with its sentence.
+
+| | |
+|---|---:|
+| Names checked | 18 |
+| Unknown names found | 1 (5.6 %) |
+| … fixed by the repair | 1 |
+| … cut out (none of them is in the docs) | 0 |
+| Sentences removed / list items removed | 0 / 0 |
 
 ## Checks
 
 - Links between pages: all resolve.
 - Diagrams: all pass the Mermaid check.
+
+*Model `gpt-oss`, 3,991 tokens, AI time 11 s; run time 0.0 min.*

@@ -28,12 +28,13 @@
   "ElapsedSeconds": 2.5,
   "LimitMinutes": 15,
   "PlannedPages": 17,
-  "FinishedPages": 16,
+  "FinishedPages": 17,
   "StageSeconds": {
     "Validating": 0.01,
     "Cloning": 1.64,
     "Scanning": 0.11,
-    "Indexing": 0.77
+    "Indexing": 0.77,
+    "Documenting": 0.29
   },
   "Inventory": {
     "Solutions": 1,
@@ -60,7 +61,7 @@
       "Path": "index.md",
       "Title": "AbdlrhmnAtallh/30-DotNet-API-Projects",
       "Kind": "index",
-      "Quality": 0
+      "Quality": 1
     },
     {
       "Path": "architecture.md",
@@ -78,7 +79,7 @@
       "Path": "projects/Project01_TaskManagerAPI.md",
       "Title": "Project01_TaskManagerAPI",
       "Kind": "project",
-      "Quality": 0
+      "Quality": 1
     },
     {
       "Path": "families/index.md",
@@ -144,7 +145,7 @@
       "Path": "api/Project01_TaskManagerAPI/Program.md",
       "Title": "Program",
       "Kind": "type",
-      "Quality": 0
+      "Quality": 1
     },
     {
       "Path": "api/Project01_TaskManagerAPI/WeatherForecast.md",
@@ -159,14 +160,42 @@
       "Quality": 0
     }
   ],
-  "PendingSections": [
-    "features"
-  ],
+  "PendingSections": [],
   "TypePagesCapped": 0,
   "BrokenLinks": [],
   "Checkpoints": 0,
-  "Ai": null,
-  "Grounding": null,
+  "Ai": {
+    "Planned": 3,
+    "FromCache": 0,
+    "Generated": 3,
+    "Repaired": 1,
+    "Rejected": 0,
+    "Failed": 0,
+    "Cancelled": 0,
+    "ToolCalls": 0,
+    "NotStarted": 0,
+    "PromptTokens": 2362,
+    "CompletionTokens": 1629,
+    "Seconds": 10.9,
+    "BudgetReached": false,
+    "Model": "gpt-oss",
+    "Finished": 3,
+    "TranslationPlanned": 0,
+    "TranslationFinished": 0,
+    "ExplanationsPlanned": 3,
+    "ExplanationsFinished": 3,
+    "CacheHitRate": 0
+  },
+  "Grounding": {
+    "Jobs": 3,
+    "NamesChecked": 18,
+    "UnknownFound": 1,
+    "FixedByRepair": 1,
+    "SentencesRemoved": 0,
+    "ItemsRemoved": 0,
+    "ErrorRateBeforeRepair": 0.05555555555555555,
+    "ErrorRateAfterRepair": 0
+  },
   "DiagramProblems": [],
   "Translation": null,
   "Exports": null,
@@ -175,12 +204,12 @@
     "C#": 6
   },
   "Delivery": {
-    "Branch": null,
-    "PullRequestUrl": null,
-    "PullRequestNumber": 0,
-    "Status": null,
-    "Folder": null,
-    "Commits": 0,
+    "Branch": "arise/repodocs/a748b7c",
+    "PullRequestUrl": "https://github.com/arise-project/30-DotNet-API-Projects/pull/1",
+    "PullRequestNumber": 1,
+    "Status": "draft",
+    "Folder": "docs",
+    "Commits": 1,
     "KeptHandWritten": [],
     "Superseded": [],
     "Error": null

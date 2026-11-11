@@ -7,6 +7,31 @@
 | Kind | App |
 | Target frameworks | net6.0 |
 
+## Overview
+
+*Written by AI from the code at this commit. Check important details against the source.*
+
+Project01_TaskManagerAPI is a lightweight ASP.NET Core Web API that provides endpoints for weather forecasts, categories, and tasks. Use it when you need a simple task‑management service with built‑in Swagger documentation.
+
+**Responsibilities**
+
+- Expose CRUD endpoints for [`Category`](../api/Project01_TaskManagerAPI.Models/Category.md) entities
+- Expose CRUD endpoints for [`Task`](../api/Project01_TaskManagerAPI.Models/Task.md) entities
+- Provide sample [`WeatherForecast`](../api/Project01_TaskManagerAPI/WeatherForecast.md) data
+- Configure routing, dependency injection, and middleware for the API
+- Generate OpenAPI/Swagger documentation via Swashbuckle
+
+**Key types**
+
+- [`WeatherForecast`](../api/Project01_TaskManagerAPI/WeatherForecast.md): Model representing a weather forecast sample returned by the API
+- [`CategoriesController`](../api/Project01_TaskManagerAPI.Controllers/CategoriesController.md): Controller exposing HTTP actions for managing [`Category`](../api/Project01_TaskManagerAPI.Models/Category.md) objects
+- [`TasksController`](../api/Project01_TaskManagerAPI.Controllers/TasksController.md): Controller exposing HTTP actions for managing [`Task`](../api/Project01_TaskManagerAPI.Models/Task.md) objects
+- [`Category`](../api/Project01_TaskManagerAPI.Models/Category.md): Domain model representing a task category
+- [`Task`](../api/Project01_TaskManagerAPI.Models/Task.md): Domain model representing an individual task
+- [`Program`](../api/Project01_TaskManagerAPI/Program.md): Entry point that builds and runs the ASP.NET Core host
+
+The project references `Swashbuckle.AspNetCore` to automatically generate and serve OpenAPI (Swagger) documentation for its endpoints.
+
 ## NuGet packages
 
 | Package | Version |
