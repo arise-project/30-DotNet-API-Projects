@@ -1,0 +1,188 @@
+{
+  "RunId": "5a0cc89c-02b4-4bad-965f-e0f30c1f8012",
+  "Repository": "AbdlrhmnAtallh/30-DotNet-API-Projects",
+  "Branch": "master",
+  "Commit": "a748b7c4dd099197850609957f85e9c1fcb19079",
+  "Solution": "Projects/Project01_TaskManagerAPI/Project01_TaskManagerAPI.sln",
+  "OptionsHash": "209ea9a839fa71d5",
+  "SharedWithRun": null,
+  "Options": {
+    "Solution": null,
+    "Sections": [
+      "overview",
+      "architecture",
+      "projects",
+      "features",
+      "api-reference",
+      "diagrams"
+    ],
+    "Audience": "both",
+    "DetailLevel": "standard",
+    "Language": "auto",
+    "DocsFolder": "docs",
+    "ExactApi": true,
+    "IncludeInternal": false,
+    "ImproveReadme": false
+  },
+  "StartedUtc": "2026-11-11T11:50:05.4198536Z",
+  "ElapsedSeconds": 2.5,
+  "LimitMinutes": 15,
+  "PlannedPages": 17,
+  "FinishedPages": 16,
+  "StageSeconds": {
+    "Validating": 0.01,
+    "Cloning": 1.64,
+    "Scanning": 0.11,
+    "Indexing": 0.77
+  },
+  "Inventory": {
+    "Solutions": 1,
+    "Projects": 1,
+    "CSharpFiles": 6
+  },
+  "Index": {
+    "Projects": 1,
+    "SkippedProjects": [],
+    "Files": 6,
+    "Lines": 98,
+    "Types": 6,
+    "PublicTypes": 6,
+    "PublicMembers": 11,
+    "Families": 0,
+    "Registrations": 0,
+    "FilesWithSyntaxErrors": 0,
+    "Seconds": 0.73,
+    "TimeBudgetReached": false
+  },
+  "Families": [],
+  "Pages": [
+    {
+      "Path": "index.md",
+      "Title": "AbdlrhmnAtallh/30-DotNet-API-Projects",
+      "Kind": "index",
+      "Quality": 0
+    },
+    {
+      "Path": "architecture.md",
+      "Title": "Architecture",
+      "Kind": "architecture",
+      "Quality": 0
+    },
+    {
+      "Path": "projects/index.md",
+      "Title": "Projects",
+      "Kind": "projects",
+      "Quality": 0
+    },
+    {
+      "Path": "projects/Project01_TaskManagerAPI.md",
+      "Title": "Project01_TaskManagerAPI",
+      "Kind": "project",
+      "Quality": 0
+    },
+    {
+      "Path": "families/index.md",
+      "Title": "Component families",
+      "Kind": "families",
+      "Quality": 0
+    },
+    {
+      "Path": "features.md",
+      "Title": "Features",
+      "Kind": "features",
+      "Quality": 0
+    },
+    {
+      "Path": "api/index.md",
+      "Title": "API reference",
+      "Kind": "api",
+      "Quality": 0
+    },
+    {
+      "Path": "api/Project01_TaskManagerAPI.Controllers/index.md",
+      "Title": "Project01_TaskManagerAPI.Controllers",
+      "Kind": "namespace",
+      "Quality": 0
+    },
+    {
+      "Path": "api/Project01_TaskManagerAPI.Models/index.md",
+      "Title": "Project01_TaskManagerAPI.Models",
+      "Kind": "namespace",
+      "Quality": 0
+    },
+    {
+      "Path": "api/Project01_TaskManagerAPI/index.md",
+      "Title": "Project01_TaskManagerAPI",
+      "Kind": "namespace",
+      "Quality": 0
+    },
+    {
+      "Path": "api/Project01_TaskManagerAPI.Controllers/CategoriesController.md",
+      "Title": "CategoriesController",
+      "Kind": "type",
+      "Quality": 0
+    },
+    {
+      "Path": "api/Project01_TaskManagerAPI.Controllers/TasksController.md",
+      "Title": "TasksController",
+      "Kind": "type",
+      "Quality": 0
+    },
+    {
+      "Path": "api/Project01_TaskManagerAPI.Models/Category.md",
+      "Title": "Category",
+      "Kind": "type",
+      "Quality": 0
+    },
+    {
+      "Path": "api/Project01_TaskManagerAPI.Models/Task.md",
+      "Title": "Task",
+      "Kind": "type",
+      "Quality": 0
+    },
+    {
+      "Path": "api/Project01_TaskManagerAPI/Program.md",
+      "Title": "Program",
+      "Kind": "type",
+      "Quality": 0
+    },
+    {
+      "Path": "api/Project01_TaskManagerAPI/WeatherForecast.md",
+      "Title": "WeatherForecast",
+      "Kind": "type",
+      "Quality": 0
+    },
+    {
+      "Path": "quality.md",
+      "Title": "Quality report",
+      "Kind": "quality",
+      "Quality": 0
+    }
+  ],
+  "PendingSections": [
+    "features"
+  ],
+  "TypePagesCapped": 0,
+  "BrokenLinks": [],
+  "Checkpoints": 0,
+  "Ai": null,
+  "Grounding": null,
+  "DiagramProblems": [],
+  "Translation": null,
+  "Exports": null,
+  "Stack": ".NET",
+  "Languages": {
+    "C#": 6
+  },
+  "Delivery": {
+    "Branch": null,
+    "PullRequestUrl": null,
+    "PullRequestNumber": 0,
+    "Status": null,
+    "Folder": null,
+    "Commits": 0,
+    "KeptHandWritten": [],
+    "Superseded": [],
+    "Error": null
+  }
+}
